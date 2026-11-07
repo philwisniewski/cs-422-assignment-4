@@ -13,17 +13,17 @@ header-includes:
   - \floatplacement{figure}{H}
 ---
 
-**Repository:** [https://github.com/philwisniewski/cs422-a4-topology](https://github.com/philwisniewski/cs422-a4-topology)
+**Repository:** [https://github.com/philwisniewski/cs-422-assignment-4](https://github.com/philwisniewski/cs-422-assignment-4)
 (replace with your link; all line links below are relative to `main`).
 
 | What | Where |
 |---|---|
-| Part 1 construction (all candidates + selection) | [`src/part1_uniform.py` L48–176](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/part1_uniform.py#L48-L176) |
-| Cyclotomic Cayley digraph | [`src/part1_uniform.py` L102–125](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/part1_uniform.py#L102-L125) |
-| Moore bound, max-concurrent-flow LP | [`src/common.py` L16–153](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/common.py#L16-L153) |
-| **Part 2 Gurobi MILP** | [`src/part2_milp.py` L60–108](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/part2_milp.py#L60-L108) |
-| Robust (one topology, many TMs) variant | [`src/part2_milp.py` L111–145](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/part2_milp.py#L111-L145) |
-| Hose traffic-matrix generators | [`src/hose_tms.py`](https://github.com/philwisniewski/cs422-a4-topology/blob/main/src/hose_tms.py) |
+| Part 1 construction (all candidates + selection) | [`src/part1_uniform.py` L48–176](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/part1_uniform.py#L48-L176) |
+| Cyclotomic Cayley digraph | [`src/part1_uniform.py` L102–125](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/part1_uniform.py#L102-L125) |
+| Moore bound, max-concurrent-flow LP | [`src/common.py` L16–153](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/common.py#L16-L153) |
+| **Part 2 Gurobi MILP** | [`src/part2_milp.py` L60–108](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/part2_milp.py#L60-L108) |
+| Robust (one topology, many TMs) variant | [`src/part2_milp.py` L111–145](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/part2_milp.py#L111-L145) |
+| Hose traffic-matrix generators | [`src/hose_tms.py`](https://github.com/philwisniewski/cs-422-assignment-4/blob/main/src/hose_tms.py) |
 
 **Setting and notation.** A topology is a directed multigraph $G$ on $n$ nodes in which every node has $d$ outgoing and $d$ incoming links of capacity 1; $x_{ij}\in\mathbb{Z}_{\ge 0}$ is the number of links $i\to j$. For a traffic matrix $T$, the *maximum concurrent flow* $\theta^*(G,T)$ is the largest $\theta$ such that $\theta T$ can be routed simultaneously (splittable, multipath) without exceeding any link capacity. $\mathrm{dist}_G(s,t)$ is the hop distance and $\bar L(G)=\frac{1}{n(n-1)}\sum_{s\neq t}\mathrm{dist}_G(s,t)$ the average shortest-path length.
 
