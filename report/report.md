@@ -14,7 +14,6 @@ header-includes:
 ---
 
 **Repository:** [https://github.com/philwisniewski/cs-422-assignment-4](https://github.com/philwisniewski/cs-422-assignment-4)
-(replace with your link; all line links below are relative to `main`).
 
 | What | Where |
 |---|---|
