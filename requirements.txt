@@ -1,0 +1,5 @@
+gurobipy>=11.0
+numpy
+networkx
+matplotlib
+scipy
